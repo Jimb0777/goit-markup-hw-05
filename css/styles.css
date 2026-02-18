@@ -695,6 +695,9 @@ img {
   margin-bottom: 8px;
 }
 
+.field-wrapper:has(.comment-field) {
+  margin-bottom: 16px;
+}
 .icon-inner {
   position: relative;
 }
@@ -769,7 +772,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 .checkbox-wrapper {
-  margin-top: 8px;
+  margin-top: 0;
 }
 
 .input-checkbox:checked + .text-terms .custom-checkbox {
