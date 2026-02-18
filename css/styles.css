@@ -695,9 +695,10 @@ img {
   margin-bottom: 8px;
 }
 
-.field-wrapper:has(.comment-field) {
+.field-wrapper--comment {
   margin-bottom: 16px;
 }
+
 .icon-inner {
   position: relative;
 }
