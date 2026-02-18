@@ -499,8 +499,15 @@ img {
 }
 .page-footer .container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
+}
+
+.link-item-footer {
+  margin-left: 120px;
+}
+
+.mail-form {
+  margin-left: auto;
 }
 
 .text-social {
@@ -684,7 +691,7 @@ img {
 }
 
 .field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .icon-inner {
@@ -798,7 +805,6 @@ img {
   color: #8e8f99;
   border-radius: 4px;
   width: 360px;
-  height: 16px;
 }
 
 .privacy-link {
